@@ -127,7 +127,13 @@ access since it draws from the already-computed mean/covariance.
 - [ ] Validate on IBM Quantum real hardware
 - [ ] Extend universe size / test noise mitigation on hardware
 - [ ] Add transaction-cost-aware constraints
+## Results
 
+![Efficient Frontier](results/efficient_frontier.png)
+
+![Cumulative Returns vs Nifty 50](results/cumulative_vs_benchmark.png)
+
+![Correlation Heatmap](results/correlation_heatmap.png)
 ## Disclaimer
 
 This is a research/educational project exploring quantum computing applied to
