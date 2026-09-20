@@ -8,8 +8,6 @@ venv/
 # Data & results (regenerated, not source-controlled)
 data/*.csv
 data/*.parquet
-results/*.png
-results/*.csv
 
 # Secrets
 .env
