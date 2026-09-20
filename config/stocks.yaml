@@ -1,0 +1,23 @@
+# Sample universe of liquid NSE large-caps.
+# yfinance ticker convention: NSE -> ".NS" suffix, BSE -> ".BO" suffix.
+tickers:
+  - RELIANCE.NS
+  - TCS.NS
+  - HDFCBANK.NS
+  - INFY.NS
+  - ICICIBANK.NS
+  - HINDUNILVR.NS
+  - ITC.NS
+  - LT.NS
+  - SBIN.NS
+  - BHARTIARTL.NS
+
+start_date: "2020-01-01"
+end_date: "2025-12-31"
+
+# QAOA / QUBO parameters
+qaoa:
+  reps: 2                # circuit depth (repetitions of the QAOA ansatz)
+  risk_factor: 0.5        # risk-aversion coefficient in the QUBO objective
+  budget: 5                # number of assets to select out of the universe
+  max_iter: 200            # classical optimizer iterations for QAOA parameters
